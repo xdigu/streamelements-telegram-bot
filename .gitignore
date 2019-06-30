@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Ignore Mac system files
+.DS_store
+*.DS_store
+**.DS_store
+
+# Envs Config
+src/constants/envConfig.json
