@@ -9,7 +9,7 @@ const
 bot.onText(/\/start/, (msg) => {
     const
         _chatId = msg.chat.id,
-        startMSG = `Hello!\nI'm a bot writed with nodeJS, if you wanna see more about plx visite https://github.com/xdigu/`
+        startMSG = `Hello!\nI'm a bot writed with nodeJS, if you wanna see more about plx visite https://github.com/xdigu/streamelements-telegram-bot`
 
     bot.sendMessage(_chatId, startMSG);
 })
